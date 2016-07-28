@@ -1,0 +1,8 @@
+.column {
+	background:getRandomColor('hex');
+	color:getRandomColor('hex');
+
+	&:nth-child(2n+1){
+		background:getRandomColor('hex');
+	}
+}

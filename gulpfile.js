@@ -40,6 +40,7 @@ var
         outputStyle: config.sassOptions.outputStyle || 'expanded',
         imagePath: config.sassOptions.imagePath,
         precision: config.sassOptions.precision || 3,
+        includePaths: config.sassOptions.includePaths,
         errLogToConsole: true
       },
       pleeeaseOpt: {

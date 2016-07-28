@@ -51,6 +51,10 @@ module.exports = function() {
       imagePath: '../img',
       // Sass precision
       precision: 3,
+      //SCSS extra libraries.
+      includePaths:[
+          './node_modules/compass-mixins/lib'
+      ],
     },
     // Javascript directory
     jsDir: 'assets/js',

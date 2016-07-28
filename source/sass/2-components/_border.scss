@@ -1,0 +1,11 @@
+@import "compass/css3";
+ 
+@import "compass/utilities";
+
+#border-radius-left {
+  @include border-left-radius(25px);
+}
+
+#border-radius {
+  @include border-radius(25px);
+}

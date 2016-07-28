@@ -3,9 +3,19 @@
 
 // 1 - TOOLS
 //@import '1-tools/bourbon/bourbon'
-@import '1-tools/fonts';
-@import '1-tools/normalize';
-@import '1-tools/vars';
+//
+
+@import '../vendors/font-awesome/scss/font-awesome';
 
 
+@import '../../node_modules/bulma/bulma';
+@import '1-tools/_fonts';
+@import '1-tools/_normalize';
+@import '1-tools/_vars';
+
+@import '1-tools/_functions';
+
+@import '2-components/_columns';
+@import '2-components/_text';
+@import '2-components/_border';
 
