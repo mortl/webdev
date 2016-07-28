@@ -59,7 +59,7 @@ The project have a very simple and flexible structure. If the default place for 
 ```
 ├───build -> All the compiled files will be placed here (Distribuction)
 │   ├───assets -> Compiled Assets
-│   ├───index.html -> Compiled Jade files
+│   ├───index.html -> Copy of Index.html file from Source.
 │   ├───vendors -> Project dependencies
 ├───source -> Source files for the project
 │   ├───assets -> Assets for the project
